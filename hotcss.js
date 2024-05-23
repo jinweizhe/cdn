@@ -11,8 +11,10 @@
     var viewportEl = document.querySelector('meta[name="viewport"]'),
       hotcssEl = document.querySelector('meta[name="hotcss"]'),
       dpr = window.devicePixelRatio || 1,
-      maxWidth = 540,  // 这里限制了最大宽度为540,这里可以自己根据设计图宽度自己改
-      // maxWidth = '100%', // 也可以这样写,限制最大宽度100%相当于没啥显示,默认100%宽(但是不管为多少,这个maxWidth必须要设置不能注释掉)
+      // 如果这个maxWidth属性给定540，则这个限制的是移动端屏幕不超过540情况下，屏幕宽度会等分8份，这个限制了ipad，但是没有限制手机，因为手机宽度没有多少超过540的，
+      // 如果为’100%‘的话，代表无论什么屏幕的移动端设备都是等分8份，不限制ipad和手机
+      // 但是不管为多少,这个maxWidth必须要设置不能注释掉
+      maxWidth = '100%', // 限制最大宽度100%
       designWidth = 0
 
     dpr = dpr >= 3 ? 3 : dpr >= 2 ? 2 : 1
