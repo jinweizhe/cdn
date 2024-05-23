@@ -1,4 +1,4 @@
-// 使用方式 https://blog.csdn.net/weixin_68658847/article/details/135713150
+// 使用方式 https://www.yuque.com/jinweizhe/oppfph/rrcxh6iysapg1occ
 var adaptive = {};
 (function (win, lib) {
     var doc = win.document;
