@@ -5,10 +5,8 @@ export function parseURL(url) {
       path: [],
       params: [],
     };
-
     const parts = url.split('?');
     result.path.push(parts[0]);
-
     if (parts.length > 1) {
       const paramsStr = parts[1];
       const paramsArray = paramsStr.split('&');
@@ -20,4 +18,4 @@ export function parseURL(url) {
       });
     }
     return result;
-  }
+}
