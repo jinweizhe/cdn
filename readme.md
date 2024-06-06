@@ -8,3 +8,5 @@
 3.瀑布流布局实现插件：css链接：https://cdn.jsdelivr.net/gh/jinweizhe/cdn/macy/macy.css  </br>  js链接：https://cdn.jsdelivr.net/gh/jinweizhe/cdn/macy/macy.js
 
 4.数组的相关数据的处理:https://cdn.jsdelivr.net/gh/jinweizhe/cdn/Array.js
+
+5.字符串相关数据的处理:https://cdn.jsdelivr.net/gh/jinweizhe/cdn/Object.js
