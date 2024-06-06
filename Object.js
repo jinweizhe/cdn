@@ -1,5 +1,5 @@
 // 使用方法: https://www.yuque.com/jinweizhe/oppfph/meqhoe9hkosyo2b3?singleDoc# 《Object.js使用》
-
+// 解析url路径
 export function parseURL(url) {
     const result = {
       path: [],
